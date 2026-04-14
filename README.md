@@ -1,6 +1,6 @@
-# ENIGMA Interaction Demo
+# ENIGMA-51 Industrial Interaction Demo
 
-ENIGMA-51 데이터셋 기반 산업 작업 상호작용 분류 데모입니다.
+ENIGMA-51 데이터셋 기반 산업 작업 상호작용 분류 및 예측 데모입니다.
 
 최근 4개 프레임의 feature를 입력으로 사용해 다음을 예측합니다.
 
@@ -17,7 +17,17 @@ ENIGMA-51 데이터셋 기반 산업 작업 상호작용 분류 데모입니다.
 - 상호작용 유무 분류
 - 현재 pair 분류
 - 미래 pair 예측
+- LSTM / GRU / BiLSTM 기반 모델 비교
 - Streamlit 기반 결과 확인
+
+## Tech Stack
+- Python
+- PyTorch
+- Streamlit
+- Pandas
+- NumPy
+- Scikit-learn
+- Jupyter Notebook
 
 ## Project Structure
 - `app.py` : Streamlit 데모 앱
@@ -27,7 +37,4 @@ ENIGMA-51 데이터셋 기반 산업 작업 상호작용 분류 데모입니다.
 ## Run
 ```bash
 pip install -r requirements.txt
-python -m streamlit run app.py 
-
-## Note
-대용량 데이터, feature, 모델 파일은 본 저장소에 포함하지 않습니다.
+python -m streamlit run app.py
