@@ -3,13 +3,6 @@
 # =========================
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
-.vscode/
-venv/
-.env
-data/
-enigma_outputs/
-enigma_artifacts/
 
 # =========================
 # Virtual environments
@@ -20,13 +13,9 @@ env/
 ENV/
 
 # =========================
-# Jupyter
+# Jupyter / Editor
 # =========================
 .ipynb_checkpoints/
-
-# =========================
-# VS Code
-# =========================
 .vscode/
 
 # =========================
@@ -64,7 +53,7 @@ dist/
 .cache/
 
 # =========================
-# Streamlit cache / temp
+# Streamlit
 # =========================
 .streamlit/secrets.toml
 
@@ -88,16 +77,15 @@ dist/
 # =========================
 # Project data
 # =========================
-data/enigma_data/frames/
-data/exported_features/
-data/*.json
+data/
 
 # =========================
 # Generated outputs
 # =========================
-enigma_outputs/models/
-enigma_outputs/csv/
-enigma_outputs/figures/
+!enigma_outputs/csv/
+!enigma_outputs/csv/**
+!enigma_outputs/figures/
+!enigma_outputs/figures/**
 
 # =========================
 # Generated artifacts

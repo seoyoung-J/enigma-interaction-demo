@@ -1,0 +1,4 @@
+﻿mode,selected_classes,accuracy,macro_f1,balanced_accuracy
+pair,decontact__oscilloscope | first_contact__oscilloscope | decontact__low_voltage_board | decontact__power_supply | first_contact__power_supply | decontact__socket_1,0.893491124260355,0.8968975999262968,0.897471999596978
+object,oscilloscope | low_voltage_board | power_supply_cables | power_supply | high_voltage_board | socket_1,0.9281867145421903,0.8875029852690698,0.9067525574010156
+verb,decontact | first_contact | release | take,0.6868327402135231,0.6424960835443279,0.6624538472899129

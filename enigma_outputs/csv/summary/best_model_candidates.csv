@@ -1,0 +1,4 @@
+﻿task_name,seq_len,model,optim_name,hidden_size,dropout,lr,weight_decay,best_epoch,val_accuracy,val_macro_f1,val_balanced_accuracy,test_accuracy,test_macro_f1,test_balanced_accuracy,selection_group,future_offset
+interaction_current_seq4,4,LSTM,adamw,256,0.3,0.0005,0.0001,20,0.7728400165357586,0.6933679164353838,0.7490579413121694,0.743885296598257,0.6657233880989893,0.6773250871935083,interaction_current_rnn_family,
+current_pair_seq4,4,BiLSTM,adam,128,0.3,0.0005,0.0001,18,0.881578947368421,0.82194248681673,0.8348965175150519,0.889261744966443,0.7530931097953742,0.7630619339321282,current_pair_rnn_family,
+future_pair_seq4_offset1,4,GRU,adamw,256,0.3,0.001,0.0001,11,0.7226666666666667,0.5859478527128886,0.5887502755731923,0.7303754266211604,0.4756240345928622,0.4856804923981443,future_pair_rnn_family,1.0
