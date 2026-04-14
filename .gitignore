@@ -1,0 +1,110 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+venv/
+.env
+data/
+enigma_outputs/
+enigma_artifacts/
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python packaging / build
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Test / cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# =========================
+# Streamlit cache / temp
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Model / artifact files
+# =========================
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# =========================
+# Large data files
+# =========================
+*.npy
+*.npz
+*.zip
+*.tar
+*.gz
+
+# =========================
+# Project data
+# =========================
+data/enigma_data/frames/
+data/exported_features/
+data/*.json
+
+# =========================
+# Generated outputs
+# =========================
+enigma_outputs/models/
+enigma_outputs/csv/
+enigma_outputs/figures/
+
+# =========================
+# Generated artifacts
+# =========================
+enigma_artifacts/
+
+# =========================
+# Keep structure files
+# =========================
+!.gitkeep
